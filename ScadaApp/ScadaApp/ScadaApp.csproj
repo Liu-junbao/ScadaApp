@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ScadaApp</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScadaApp.Core\ScadaApp.Core.csproj" />
+    <ProjectReference Include="..\Modules\ScadaApp.Modules.ModuleName\ScadaApp.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\ScadaApp.Services.Interfaces\ScadaApp.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\ScadaApp.Services\ScadaApp.Services.csproj" />
+  </ItemGroup>
+</Project>

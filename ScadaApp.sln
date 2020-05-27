@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{72EAFCCE-B594-4B30-948F-4BE25B6AFFB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp.Modules.ModuleName.Tests", "ScadaApp\Tests\ScadaApp.Modules.ModuleName.Tests\ScadaApp.Modules.ModuleName.Tests.csproj", "{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{0A11597F-9930-4D3B-85EE-74FD5B407E2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp.Modules.ModuleName", "ScadaApp\Modules\ScadaApp.Modules.ModuleName\ScadaApp.Modules.ModuleName.csproj", "{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7AA6933E-D941-45DB-8D35-24A715A19FDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp.Services", "ScadaApp\Services\ScadaApp.Services\ScadaApp.Services.csproj", "{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp.Services.Interfaces", "ScadaApp\Services\ScadaApp.Services.Interfaces\ScadaApp.Services.Interfaces.csproj", "{F49CA57F-B688-413C-A81B-CDA22FE8A1CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp", "ScadaApp\ScadaApp\ScadaApp.csproj", "{304237B3-583C-497F-B087-0770D60AD554}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaApp.Core", "ScadaApp\ScadaApp.Core\ScadaApp.Core.csproj", "{10E96602-00EE-449B-98EE-E18C6B4D0AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9FACB39D-818E-4A6E-B7F1-074356D3DABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScadaApp.Models", "ScadaApp.Models\ScadaApp.Models.csproj", "{219A380E-7847-4230-952E-A14061AC7B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScadaApp.Models.Interfaces", "ScadaApp.Models.Interfaces\ScadaApp.Models.Interfaces.csproj", "{A7F97B50-4686-414A-B4C8-E944771187D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49CA57F-B688-413C-A81B-CDA22FE8A1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49CA57F-B688-413C-A81B-CDA22FE8A1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49CA57F-B688-413C-A81B-CDA22FE8A1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49CA57F-B688-413C-A81B-CDA22FE8A1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304237B3-583C-497F-B087-0770D60AD554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304237B3-583C-497F-B087-0770D60AD554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304237B3-583C-497F-B087-0770D60AD554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304237B3-583C-497F-B087-0770D60AD554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E96602-00EE-449B-98EE-E18C6B4D0AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E96602-00EE-449B-98EE-E18C6B4D0AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E96602-00EE-449B-98EE-E18C6B4D0AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E96602-00EE-449B-98EE-E18C6B4D0AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219A380E-7847-4230-952E-A14061AC7B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219A380E-7847-4230-952E-A14061AC7B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219A380E-7847-4230-952E-A14061AC7B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219A380E-7847-4230-952E-A14061AC7B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F97B50-4686-414A-B4C8-E944771187D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F97B50-4686-414A-B4C8-E944771187D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F97B50-4686-414A-B4C8-E944771187D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F97B50-4686-414A-B4C8-E944771187D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CE4B6B8-954F-4BFD-AD2A-7D098E436EB4} = {72EAFCCE-B594-4B30-948F-4BE25B6AFFB0}
+		{7FDA4348-BC5A-42B5-8216-E7A4AF0D036C} = {0A11597F-9930-4D3B-85EE-74FD5B407E2B}
+		{EB1D82D1-B3B6-4243-BACD-6C517E1A7FF7} = {7AA6933E-D941-45DB-8D35-24A715A19FDB}
+		{F49CA57F-B688-413C-A81B-CDA22FE8A1CA} = {7AA6933E-D941-45DB-8D35-24A715A19FDB}
+		{219A380E-7847-4230-952E-A14061AC7B03} = {9FACB39D-818E-4A6E-B7F1-074356D3DABC}
+		{A7F97B50-4686-414A-B4C8-E944771187D6} = {9FACB39D-818E-4A6E-B7F1-074356D3DABC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68865D96-EE93-4265-A4D3-C5F542F66563}
+	EndGlobalSection
+EndGlobal
